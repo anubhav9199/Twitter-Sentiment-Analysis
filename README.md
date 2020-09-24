@@ -1,4 +1,4 @@
-# Twitter Sentiment Analysis
+# Twitter Sentiment Analyzer
 
 The following program is designed to parse desired number of tweets which contains text mentioned in query.txt file and then perform sentiment analysis on them. It also counts a few entities such as likes, retweets, etc and saveall the information in a Pandas Dataframe.
 
