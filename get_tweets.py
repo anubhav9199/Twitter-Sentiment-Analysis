@@ -43,6 +43,8 @@ def main():
     # Converting DataFrame to CSV File for use.
     tweets_df.to_csv("tweets.csv")
 
+    print("DataFrame is Exported to CSV File.")
+
 # Cleaning Tweet Function
 def clean_tweet(tweet):
     """
@@ -152,7 +154,7 @@ def get_tweets(ck='None',cs='None',at='None',ats='None',query='@MercedesBenz goo
                  '# of Media Items in Tweet':entities}
      
     df=pandas.DataFrame(data=dictionary)
-        
+    print("DataFrame Created.")
     return df
 
 if __name__ == "__main__":
